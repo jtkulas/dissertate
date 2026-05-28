@@ -5,10 +5,13 @@ creating a Quarto extension for dissertations \& theses, starting with Montclair
 # Design feature priorities
 
 1. conformity to graduate school format (margins, fonts, etc)
-2. advisor--friendly (note--taking and idea--sharing maximized)
+2. advisor--friendly (note--taking and idea--sharing maximized); check out [these three options](https://quarto.org/docs/reference/projects/websites.html#comments)
 
    * html version for editing
    * pdf final for graduate school
+
+3. Undecided: Organize by .qmd chapters or one entire .qmd document (Kulas look into benefits and drawbacks for 6/1 @ 7 Eastern) (do other people have examples of one whole .qmd)
+4. Transfer of process to other Universities
 
 # Execution
 
