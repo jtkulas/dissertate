@@ -12,6 +12,8 @@ creating a Quarto extension for dissertations \& theses, starting with Montclair
 
 3. Undecided: Organize by .qmd chapters or one entire .qmd document (Kulas look into benefits and drawbacks for 6/1 @ 7 Eastern) (do other people have examples of one whole .qmd)
 4. Transfer of process to other Universities
+5. Remove all barriers to adoption (Appendicies, whatever else - forecast funky formats and other possible issues)
+6. Entice people to use (educational aspect)
 
 # Execution
 
