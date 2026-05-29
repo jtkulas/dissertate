@@ -2,6 +2,8 @@
 
 creating a Quarto extension for dissertations \& theses, starting with Montclair State University (with plans to extend capability to other Universities)
 
+UX goal -- maximize html version (advisor and student collaboration) & "hide" grad--school formatting under--the--hood with single .pdf generate button
+
 # Design feature priorities
 
 1. conformity to graduate school format (margins, fonts, etc)
