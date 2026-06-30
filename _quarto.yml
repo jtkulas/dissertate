@@ -19,6 +19,9 @@ format:
     theme:
       - cosmo
       - brand
+    include-after-body: # adds hypothesis commenting
+      text: |
+        <script src="https://hypothes.is/embed.js" async></script>
 
 
 
