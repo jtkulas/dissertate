@@ -1,8 +1,8 @@
-# Preface {.unnumbered}
+# Introduction
 
 This is a template for the dissertation capability.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+Sample Intro section
 
 ```{r}
 1 + 1

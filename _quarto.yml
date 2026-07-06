@@ -1,24 +1,24 @@
 project:
   type: book
-  output-dir: docs
+  output-dir: docs  ## only for GitHub publishing
 
 book:
-  title: "dissertate"
-  author: "Norah Jones"
-  date: "6/29/2026"
+  title: "Dissertation"
+  author: "I. M. Awesome"
+  date: "date"      ## returns current date
   chapters:
-    - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - index.qmd     ## only for GitHub publishing - rendering to a different named .html
+    - methods.qmd
+    - results.qmd
+    - discussion.qmd
 
 bibliography: references.bib
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: flatly      ## change to your preference
+      dark: darkly
     include-after-body: # adds hypothesis commenting
       text: |
         <script src="https://hypothes.is/embed.js" async></script>
