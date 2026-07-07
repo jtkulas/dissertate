@@ -5,14 +5,18 @@ project:
 book:
   title: "Dissertation"
   author: "I. M. Awesome"
-  date: "date"      ## returns current date
+  date: last-modified
   chapters:
-    - index.qmd     ## only for GitHub publishing - rendering to a different named .html
+    - index.qmd     ## intro chapter named "index" to facilitate online sharing
     - methods.qmd
     - results.qmd
     - discussion.qmd
+    - bibliography.qmd
 
 bibliography: references.bib
+
+language: 
+  title-block-published: "Last Updated"
 
 format:
   html:

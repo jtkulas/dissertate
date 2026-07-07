@@ -1,9 +1,13 @@
 # Introduction
 
-This is a template for the dissertation capability.
+This is a template for the [`dissertate`](https://github.com/jtkulas/dissertate) capability.
 
-Sample Intro section
+Advisors and advisees collaborate on the html version of the thesis/dissertation, with graduate--school format available via pdf download (right side--bar).
 
-```{r}
-1 + 1
-```
+## Literature review 
+
+Citations are specified in [BibTeX](https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex) or [BibLaTex](https://www.overleaf.com/learn/latex/Articles/Getting_started_with_BibLaTeX) format and stored within `.bib` file(s) located within your project directory. 
+
+For example, see the work of @quarto and @knuth84 
+
+

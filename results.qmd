@@ -1,7 +1,36 @@
+---
+execute: 
+  echo: fenced
+  warning: false
+  message: false
+---
+
 # Results
 
-In summary, this book has no content whatsoever.
+Get as fancy as you'd like here (see @fig-bubble) although remember that the .pdf submitted to the graduate school will not reflect/support interactivity... 
+
+Appendices of your code--chunks can be auto--generated if you like, although the fact that you're completing your thesis/dissertation using `dissertate` somewhat mitigates the reasons for doing so.
+
+## Pretty Graph
 
 ```{r}
-1 + 1
+#| label: fig-bubble
+#| fig-cap: "Bunch 'o bubbles"
+
+library(plotly)
+
+data <- read.csv("https://raw.githubusercontent.com/plotly/datasets/master/school_earnings.csv")
+
+fig <- plot_ly(data, x = ~Women, y = ~Men, text = ~School, type = 'scatter', mode = 'markers',
+        marker = list(size = ~Gap, opacity = 0.5))
+fig <- fig %>% layout(title = 'Gender Gap in Earnings per University',
+         xaxis = list(showgrid = FALSE),
+         yaxis = list(showgrid = FALSE))
+
+fig
+
+
 ```
+
+
+

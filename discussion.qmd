@@ -1,6 +1,13 @@
 # Discussion
 
-# References
+Important contributions, world--altering implications, yadda--yadda...
 
-::: {#refs}
+## Meh {#sec-meh}
+
+::: {.callout-warning}
+
+Be judicious with your use of [within--document cross--referencing](methods.qmd). After all, was this section really worth it?
+
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGxpaTA2YmZhcmwxZ28yZXlhYXl6M24yZDV1YjhxZXA1c3djNjQyNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TbLLgMdmhPbvTGraES/giphy.gif)
+
 :::

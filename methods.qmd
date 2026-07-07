@@ -1,9 +1,16 @@
 # Methods
 
-This is a book created from markdown and executable code.
+You use [markdown](https://quarto.org/docs/authoring/markdown-basics.html) to indicate formatting -- the most important formatting elements for your thesis/dissertation are [headings](https://quarto.org/docs/authoring/markdown-basics.html). These will be most directly tied to the look of your graduate school formatted document.  
 
-See @knuth84 for additional discussion of literate programming.
+You should also familiarize yourself with cross--references -- they will help:
 
-```{r}
-1 + 1
-```
+  1. reader [navigation](https://quarto.org/docs/books/book-crossrefs.html) of your paper
+  2. management of [tables and figures](https://quarto.org/docs/authoring/cross-references.html)
+  
+Regarding #1, see @sec-meh
+
+Regarding #2, if you properly cross--reference your tables and figures, you will NOT need to do any manual renumbering or sequencing if (when) your advisor asks for a sequence swap.
+
+::: {.column-margin}
+![](https://gingerz.works/wp-content/uploads/2018/11/problem-2980866_1920.png)
+:::
