@@ -12,6 +12,7 @@ book:
     - results.qmd
     - discussion.qmd
     - bibliography.qmd
+  reader-mode: true # A toggle that lets the reader hide the left navigation and right table of contents
 
 bibliography: references.bib
 
