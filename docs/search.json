@@ -14,7 +14,7 @@
     "href": "index.html#literature-review",
     "title": "Dissertation",
     "section": "1.1 Literature review",
-    "text": "1.1 Literature review\nCitations are specified in BibTeX or BibLaTex format and stored within .bib file(s) located within your project directory.\nFor example, see the work of Allaire et al. (2026) and Knuth (1984)\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, Christophe Dervieux, and Gordon Woodhull. 2026. “Quarto.” https://doi.org/10.5281/zenodo.5960048.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "1.1 Literature review\nCitations are specified in BibTeX or BibLaTex format and stored within .bib file(s) located within your project directory.\nFor example, see the work of Allaire et al. (2026) and Knuth (1984)\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, Christophe Dervieux, and Gordon Woodhull. 2026. Quarto. V. 1.9. Released. https://doi.org/10.5281/zenodo.5960048.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -34,7 +34,7 @@
     "href": "results.html",
     "title": "3  Results",
     "section": "",
-    "text": "3.1 Pretty Graph\n```{r}\n#| label: fig-bubble\n#| fig-cap: \"Bunch 'o bubbles\"\n\nlibrary(plotly)\n\ndata &lt;- read.csv(\"https://raw.githubusercontent.com/plotly/datasets/master/school_earnings.csv\")\n\nfig &lt;- plot_ly(data, x = ~Women, y = ~Men, text = ~School, type = 'scatter', mode = 'markers',\n        marker = list(size = ~Gap, opacity = 0.5))\nfig &lt;- fig %&gt;% layout(title = 'Gender Gap in Earnings per University',\n         xaxis = list(showgrid = FALSE),\n         yaxis = list(showgrid = FALSE))\n\nfig\n```\n\n\n\n\n\n\n\nFigure 3.1: Bunch ’o bubbles",
+    "text": "3.1 Pretty Graph\nGet as fancy as you’d like here (see Figure 3.1) although remember that the .pdf submitted to the graduate school will not reflect/support interactivity…\nAppendices of your code–chunks can be auto–generated if you like, although the fact that you’re completing your thesis/dissertation using dissertate somewhat mitigates the reasons for doing so.\n```{r}\n#| label: fig-bubble\n#| fig-cap: \"Bunch 'o bubbles\"\n\nlibrary(plotly)\n\ndata &lt;- read.csv(\"https://raw.githubusercontent.com/plotly/datasets/master/school_earnings.csv\")\n\nfig &lt;- plot_ly(data, x = ~Women, y = ~Men, text = ~School, type = 'scatter', mode = 'markers',\n        marker = list(size = ~Gap, opacity = 0.5))\nfig &lt;- fig %&gt;% layout(title = 'Gender Gap in Earnings per University',\n         xaxis = list(showgrid = FALSE),\n         yaxis = list(showgrid = FALSE))\n\nfig\n```\n\n\n\n\n\n\n\nFigure 3.1: Bunch ’o bubbles",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Results</span>"
     ]
@@ -44,7 +44,7 @@
     "href": "discussion.html",
     "title": "4  Discussion",
     "section": "",
-    "text": "4.1 Meh",
+    "text": "4.1 Meh\nImportant contributions, world–altering implications, yadda–yadda…",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Discussion</span>"
     ]
@@ -64,7 +64,7 @@
     "href": "bibliography.html",
     "title": "5  References",
     "section": "",
-    "text": "Allaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie,\nChristophe Dervieux, and Gordon Woodhull. 2026. “Quarto.”\nhttps://doi.org/10.5281/zenodo.5960048.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Allaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie,\nChristophe Dervieux, and Gordon Woodhull. 2026. Quarto. V. 1.9.\nReleased. https://doi.org/10.5281/zenodo.5960048.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>References</span>"
     ]

@@ -12,5 +12,5 @@ Regarding #1, see @sec-meh
 Regarding #2, if you properly cross--reference your tables and figures, you will NOT need to do any manual renumbering or sequencing if (when) your advisor asks for a sequence swap.
 
 ::: {.column-margin}
-![](https://gingerz.works/wp-content/uploads/2018/11/problem-2980866_1920.png)
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2IhxHWBLcNEEzmfw7f4E07cEsocvngirnyCoBH86NV0Jh7ibHuC9529ic&s=10)
 :::

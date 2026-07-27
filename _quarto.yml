@@ -12,7 +12,8 @@ book:
     - results.qmd
     - discussion.qmd
     - bibliography.qmd
-  reader-mode: true # A toggle that lets the reader hide the left navigation and right table of contents
+  reader-mode: false # A toggle that lets the reader hide the left navigation and right table of contents
+  output-file: "Dissertation"   # produces Dissertation.pdf
 
 bibliography: references.bib
 
@@ -27,6 +28,12 @@ format:
     include-after-body: # adds hypothesis commenting
       text: |
         <script src="https://hypothes.is/embed.js" async></script>
+    other-links:
+      - text: Grad Skool format
+        icon: file-earmark-pdf      # or file-pdf, download, etc.
+        href: /Dissertation.pdf
+        target: _blank
+  pdf: default
 
 
 

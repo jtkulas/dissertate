@@ -8,6 +8,6 @@ Important contributions, world--altering implications, yadda--yadda...
 
 Be judicious with your use of [within--document cross--referencing](methods.qmd). After all, was this section really worth it?
 
-![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGxpaTA2YmZhcmwxZ28yZXlhYXl6M24yZDV1YjhxZXA1c3djNjQyNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TbLLgMdmhPbvTGraES/giphy.gif)
+![](https://static01.nyt.com/images/2021/04/30/multimedia/30xp-meme/29xp-meme-mediumSquareAt3X-v5.jpg)
 
 :::
