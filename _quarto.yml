@@ -1,39 +1,17 @@
 project:
   type: book
-  output-dir: docs  ## only for GitHub publishing
 
-book:
-  title: "Dissertation"
-  author: "I. M. Awesome"
-  date: last-modified
-  chapters:
-    - index.qmd     ## intro chapter named "index" to facilitate online sharing
-    - methods.qmd
-    - results.qmd
-    - discussion.qmd
-    - bibliography.qmd
-  reader-mode: false # A toggle that lets the reader hide the left navigation and right table of contents
-  output-file: "Dissertation"   # produces Dissertation.pdf
+# University PDF templates mapping — custom field for this project.
+# We store available university templates here; this is a convenience mapping for humans
+# and scripts. Quarto itself does not automatically use this mapping, but you can
+# reference the template path in individual documents as shown in examples/montclair-dissertation.qmd.
 
-bibliography: references.bib
+university_formats:
+  montclair: formats/montclair.tex
 
-language: 
-  title-block-published: "Last Updated"
+# Example: to render the example Quarto document to PDF using the Montclair template:
+# quarto render examples/montclair-dissertation.qmd
+# (The document already declares the template under format: pdf: template: formats/montclair.tex)
 
-format:
-  html:
-    theme:
-      light: flatly      ## change to your preference
-      dark: darkly
-    include-after-body: # adds hypothesis commenting
-      text: |
-        <script src="https://hypothes.is/embed.js" async></script>
-    other-links:
-      - text: Grad Skool format
-        icon: file-earmark-pdf      # or file-pdf, download, etc.
-        href: /Dissertation.pdf
-        target: _blank
-  pdf: default
-
-
-
+# Future: you can write a small build script or Makefile target that selects a template
+# by name from this mapping and renders documents accordingly.

@@ -1,0 +1,39 @@
+---
+title: "A Montclair-Style Dissertation Example"
+author: "Your Name"
+date: "2026"
+degree: "Doctor of Philosophy"
+department: "Department of Computer Science"
+advisor: "Jane S. Advisor, Ph.D."
+committee: "Committee Chair, Member One, Member Two"
+abstract: |
+  This is a short example abstract demonstrating the Montclair-style PDF template.
+  Replace this with your actual abstract.
+
+format:
+  pdf:
+    template: formats/montclair.tex
+    keep-tex: true
+    latex-engine: xelatex
+
+---
+
+# Front Matter {.unnumbered}
+
+This example shows how to use the Montclair template. The template sets approximate margins, header/footer behavior, a title page, abstract handling, TOC, and uses roman numbering for front matter.
+
+# Chapter 1 {#introduction}
+
+Write your introduction here. Use normal Quarto/Markdown for content. Headings will be converted to chapters/sections by Pandoc when rendering to PDF.
+
+## Background
+
+Some background text.
+
+# Chapter 2 {#methods}
+
+Methods and materials.
+
+# References
+
+Reference handling will depend on your bibliography settings (add bibliography: and csl: if you use citations).
